@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0; font-family: Arial;}
+
+body{
+    background-color: rgb(60, 123, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header, footer{
+    color: white;
+    margin: 30px;
+
+    font-size: 16pt;
+    font-weight: bold;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.664);
+    
+}
+
+section{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.413);
+}
+
+section p {
+    margin: 10px;
+}
+
+#botao{
+    padding: 2px;
+}
